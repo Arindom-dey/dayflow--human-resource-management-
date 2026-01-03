@@ -57,10 +57,10 @@ app.post('/api/send-otp', async (req, res) => {
         const mailOptions = {
             from: process.env.EMAIL_USER,
             to: email,
-            subject: 'NexHR - Verify Your Identity',
+            subject: 'DayFlow - Verify Your Identity',
             html: `
                 <div style="font-family: Arial, sans-serif; padding: 20px; color: #333;">
-                    <h2 style="color: #A855F7;">NexHR Identity Verification</h2>
+                    <h2 style="color: #A855F7;">DayFlow Identity Verification</h2>
                     <p>Hello ${name || 'User'},</p>
                     <p>You are attempting to activate your HR Administrator account.</p>
                     <p>Your One-Time Password (OTP) is:</p>

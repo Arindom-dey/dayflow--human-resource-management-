@@ -42,7 +42,7 @@ const Sidebar = () => {
                     <Briefcase size={24} />
                 </div>
                 <div>
-                    <h2 style={{ fontSize: '1.25rem', fontWeight: '700', lineHeight: 1 }}>NexHR</h2>
+                    <h2 style={{ fontSize: '1.25rem', fontWeight: '700', lineHeight: 1 }}>DayFlow</h2>
                     <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>HR Management</span>
                 </div>
             </div>

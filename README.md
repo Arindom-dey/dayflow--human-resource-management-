@@ -1,4 +1,4 @@
-# NexHR - Human Resource Management System
+# DayFlow - Human Resource Management System
 
 A modern, comprehensive HRMS build for the hackathon, featuring role-based access for Admins and Employees.
 

@@ -47,7 +47,7 @@ const Login = () => {
         }}>
             <div className="card" style={{ width: '100%', maxWidth: '400px', padding: '2.5rem' }}>
                 <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-                    <h1 style={{ fontSize: '1.75rem', marginBottom: '0.5rem', color: 'var(--primary)' }}>NexHR</h1>
+                    <h1 style={{ fontSize: '1.75rem', marginBottom: '0.5rem', color: 'var(--primary)' }}>DayFlow</h1>
                     <p style={{ color: 'var(--text-secondary)' }}>Sign in to your account</p>
                 </div>
 

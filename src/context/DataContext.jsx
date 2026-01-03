@@ -21,7 +21,7 @@ const INITIAL_EMPLOYEES = [
         email: 'hr@hrms.com',
         password: 'temporaryHR123', // Initial Password given offline
         role: 'admin',
-        companyName: 'NexHR Corp', // Verification Field
+        companyName: 'DayFlow Corp', // Verification Field
         phone: '111-222-3333',     // Verification Field
         jobTitle: 'HR Manager',
         department: 'Human Resources',

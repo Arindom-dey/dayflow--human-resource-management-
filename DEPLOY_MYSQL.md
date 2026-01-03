@@ -1,5 +1,5 @@
 
-# 🚀 Deployment Guide: Running NexHR with MySQL
+# 🚀 Deployment Guide: Running DayFlow with MySQL
 
 Follow these steps to get your full stack application running with a real MySQL database.
 
