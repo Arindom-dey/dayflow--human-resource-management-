@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 import { subDays, format } from 'date-fns';
+import { API_BASE_URL } from '../config';
 
 const DataContext = createContext();
 
@@ -67,7 +68,7 @@ export const DataProvider = ({ children }) => {
     React.useEffect(() => {
         const fetchEmployees = async () => {
             try {
-                const response = await fetch('http://localhost:3001/api/employees');
+                const response = await fetch(`${API_BASE_URL}/api/employees`);
                 if (response.ok) {
                     const data = await response.json();
                     setEmployees(data);
@@ -128,7 +129,7 @@ export const DataProvider = ({ children }) => {
 
     const addEmployee = async (newEmp) => {
         try {
-            const response = await fetch('http://localhost:3001/api/employees', {
+            const response = await fetch(`${API_BASE_URL}/api/employees`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(newEmp)
